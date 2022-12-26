@@ -1,6 +1,6 @@
 # mysqlCode-C
-C语言数据库管理系统，配合数据库脚本(.sql)使用
+C language database management system, used with database scripts (.sql).
 
-不知道为什么有一个约束性别为男或者女的触发器总是乱码，导入后需要手动调整
+I don't know why there is a trigger that restricts the gender to male or female that is always garbled, and needs to be manually adjusted after importing
 
-运行时exe文件要和libmysql.dll(放在了x64/release目录下)文件在同一个目录下
+When running,the exe file should be in the same directory as the libmysql .dll (placed in the x64/release directory) file
